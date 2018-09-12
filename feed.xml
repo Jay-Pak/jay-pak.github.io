@@ -5,8 +5,8 @@
     <description>My Study Space....</description>
     <link>https://jay-pak.github.io//</link>
     <atom:link href="https://jay-pak.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Sep 2018 16:24:57 +0900</pubDate>
-    <lastBuildDate>Wed, 12 Sep 2018 16:24:57 +0900</lastBuildDate>
+    <pubDate>Wed, 12 Sep 2018 16:31:46 +0900</pubDate>
+    <lastBuildDate>Wed, 12 Sep 2018 16:31:46 +0900</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -71,7 +71,7 @@
         <link>https://jay-pak.github.io//Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML</link>
         <guid isPermaLink="true">https://jay-pak.github.io//Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML</guid>
         
-        <category>google-cloud</category>
+        <category>bigquery</category>
         
         
         <category>Google</category>
