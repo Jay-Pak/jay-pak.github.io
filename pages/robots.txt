@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://jay-pak.github.io/sitemap.xml
