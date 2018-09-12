@@ -11,7 +11,7 @@
 
 
 
-    <title>Democratization of Machine Learning - Bigquery ML</title>
+    <title>Big Query ML 뜯어보기</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css"/>
@@ -26,15 +26,15 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="My Study Space...." />
     <link rel="shortcut icon" href="https://jay-pak.github.io/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://jay-pak.github.io/Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML" />
+    <link rel="canonical" href="https://jay-pak.github.io/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="To Be Continue....." />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Democratization of Machine Learning - Bigquery ML" />
-    <meta property="og:description" content="지난 7월 미국 San Francisco Mountain - View에서 있었던 Google Next’18 에서 Big Query ML에 대한 Announce 가 있었다. 이번 포스팅에서는 Big Query ML에 대한 간략한 소개에 대해 이야기 해보고자 한다. Google Next BigQuery ML은 말 그대로 Big Query 내에서 Machine Learning Model을 생성 할 수 있는 서비스이다. 기업의 데이터" />
-    <meta property="og:url" content="https://jay-pak.github.io/Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML" />
+    <meta property="og:title" content="Big Query ML 뜯어보기" />
+    <meta property="og:description" content="이번 포스트는 Big Query ML을 뜯어 보고자 한다. Bigquery ML을 위해서는 아래와 같이 2가지 Step을 거친다. 1. Model Creation (모델 생성) Bigquery ML의 모델을 생성 하는 것은 익히 알고 있는 Create 구문과 비슷하며, Model 생성에 필요한 Option Parameter는 {Key = Value}의 형태로 사용하면 된다. [ CREATE MODEL | CREATE MODEL" />
+    <meta property="og:url" content="https://jay-pak.github.io/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB" />
     <meta property="og:image" content="https://jay-pak.github.io/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/ITLimited" />
     <meta property="article:author" content="https://www.facebook.com/ITLimited" />
@@ -42,8 +42,8 @@
     <meta property="article:modified_time" content="2018-09-06T19:18:00+09:00" />
     <meta property="article:tag" content="Bigquery" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Democratization of Machine Learning - Bigquery ML" />
-    <meta name="twitter:description" content="지난 7월 미국 San Francisco Mountain - View에서 있었던 Google Next’18 에서 Big Query ML에 대한 Announce 가 있었다. 이번 포스팅에서는 Big Query ML에 대한 간략한 소개에 대해 이야기 해보고자 한다. Google Next BigQuery ML은 말 그대로 Big Query 내에서 Machine Learning Model을 생성 할 수 있는 서비스이다. 기업의 데이터" />
+    <meta name="twitter:title" content="Big Query ML 뜯어보기" />
+    <meta name="twitter:description" content="이번 포스트는 Big Query ML을 뜯어 보고자 한다. Bigquery ML을 위해서는 아래와 같이 2가지 Step을 거친다. 1. Model Creation (모델 생성) Bigquery ML의 모델을 생성 하는 것은 익히 알고 있는 Create 구문과 비슷하며, Model 생성에 필요한 Option Parameter는 {Key = Value}의 형태로 사용하면 된다. [ CREATE MODEL | CREATE MODEL" />
     <meta name="twitter:url" content="https://jay-pak.github.io/" />
     <meta name="twitter:image" content="https://jay-pak.github.io/assets/images/blog-cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -64,7 +64,7 @@
         "name": "To Be Continue.....",
         "logo": "https://jay-pak.github.io/"
     },
-    "url": "https://jay-pak.github.io/Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML",
+    "url": "https://jay-pak.github.io/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB",
     "image": {
         "@type": "ImageObject",
         "url": "https://jay-pak.github.io/assets/images/blog-cover.jpg",
@@ -73,9 +73,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jay-pak.github.io/Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML"
+        "@id": "https://jay-pak.github.io/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB"
     },
-    "description": "지난 7월 미국 San Francisco Mountain - View에서 있었던 Google Next’18 에서 Big Query ML에 대한 Announce 가 있었다. 이번 포스팅에서는 Big Query ML에 대한 간략한 소개에 대해 이야기 해보고자 한다. Google Next BigQuery ML은 말 그대로 Big Query 내에서 Machine Learning Model을 생성 할 수 있는 서비스이다. 기업의 데이터"
+    "description": "이번 포스트는 Big Query ML을 뜯어 보고자 한다. Bigquery ML을 위해서는 아래와 같이 2가지 Step을 거친다. 1. Model Creation (모델 생성) Bigquery ML의 모델을 생성 하는 것은 익히 알고 있는 Create 구문과 비슷하며, Model 생성에 필요한 Option Parameter는 {Key = Value}의 형태로 사용하면 된다. [ CREATE MODEL | CREATE MODEL"
 }
     </script>
 
@@ -88,7 +88,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Democratization of Machine Learning - Bigquery ML" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Big Query ML 뜯어보기" href="/feed.xml" />
 
 
 </head>
@@ -157,68 +157,152 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Democratization of Machine Learning - Bigquery ML</h1>
+                <h1 class="post-full-title">Big Query ML 뜯어보기</h1>
             </header>
 
             
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p>지난 7월 미국 San Francisco Mountain - View에서 있었던 Google Next’18 에서 Big Query ML에 대한 Announce 가 있었다. 이번 포스팅에서는 Big Query ML에 대한 간략한 소개에 대해 이야기 해보고자 한다.</p>
+                    <p>이번 포스트는 Big Query ML을 뜯어 보고자 한다.</p>
 
-<center>
-    <img src="https://lh3.googleusercontent.com/-yYQHr3BnoKU/WvsR07QaYiI/AAAAAAAABgA/V2WfyrpctnInmJb-9B9E-MuMQ7ehPdzkgCJoC/w530-h298-n-rw/NEXT_2018_COLOR_TWITTER%2B%25284%2529.gif" />
-    <br />
-	<em>Google Next</em>
-</center>
+<p>Bigquery ML을 위해서는 아래와 같이 2가지 Step을 거친다.</p>
 
-<p>BigQuery ML은 말 그대로 Big Query 내에서 Machine Learning Model을 생성 할 수 있는 서비스이다. 기업의 데이터 분석가들은 데이터를 활용한 분석 및 예측을 위해서는 R, Python 등 언어를 습득해야 하고, 데이터에 대한 이해도가 높은 사람만이 할 수 있어, 소수 인원의 전유물 처럼 여겨 졌다.</p>
-
-<p>이에 Google은 개발 언어를 배우지 않고도, 쉽게 Machine Learning Model을 생성 할 수 있도록 SQL만으로 데이터를 분석 할수 있는 Platform인 BigQuery에 Machine Learning Model을 생성 할 수 있도록 서비스하기 시작하였다. 이와는 별도로, Cloud Auto ML을 발표 하였는데, Cloud AutoML은 인식 시스템의 기계 학습 / AI를 사용한 사용자 정의 기계 학습 모델 구축을 On-Premise에서 실행할 수 있도록하고있다. Cloud AutoML은 이미지 내의 물체 인식 / 분류뿐만 아니라 문서의 분류, 번역에 대응 했다.</p>
-
-<p>아래는 BigQuery ML의 Model 생성 및 이를 이용한 예측을 하는 방법을 간단히 설명하는 Image이다.</p>
-
-<center>
-    <img src="https://cloud.google.com/images/products/bigquery/bigquery-ml.gif" />
-    <br />
-	<em>[ 출처 : Google Cloud Big Query ML Documentation ]</em>
-</center>
-
-<h3 id="1-create-support-model">1. Create Support Model</h3>
+<h2 id="1-model-creation-모델-생성">1. Model Creation (모델 생성)</h2>
 
 <ul>
-  <li>
-    <p>Linear Regression - 연속성을 가지는 수치 데이터에 대해 예측을 위한 모델.</p>
-  </li>
-  <li>
-    <p>Binary Logistics Regression - 쉽게 말해 Classification. A인가? B인가? 혹은 어느 군집에 속하는가를 판별 하는 모델.</p>
-  </li>
+  <li>Bigquery ML의 모델을 생성 하는 것은 익히 알고 있는 Create 구문과 비슷하며, Model 생성에 필요한 Option Parameter는 {Key = Value}의 형태로 사용하면 된다.</li>
 </ul>
 
-<h3 id="2-quota-및-limitation--pricing">2. Quota 및 Limitation &amp; Pricing</h3>
+<blockquote>
+  <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span> <span class="k">CREATE</span> <span class="n">MODEL</span> <span class="o">|</span> <span class="k">CREATE</span> <span class="n">MODEL</span> <span class="n">IF</span> <span class="k">NOT</span> <span class="k">EXISTS</span>  <span class="o">|</span> <span class="k">CREATE</span> <span class="k">OR</span> <span class="k">REPLACE</span> <span class="n">MODEL</span> <span class="p">]</span> <span class="n">model_name</span>       
+<span class="k">OPTIONS</span>
+<span class="p">(</span>
+	<span class="p">[</span><span class="k">Options</span><span class="p">..]</span>
+<span class="p">)</span>
+<span class="k">AS</span> 
+<span class="p">[</span><span class="n">SQL_Statement</span><span class="p">]</span>
+</code></pre></div>  </div>
+
+</blockquote>
 
 <ul>
-  <li>BigQuery ML은 Machine Learning을 위한 Model을 생성하는데 쓰이는 Query에 대한 Quota를 따른다. Create Model에 대한 Quota는 없다. 자세한 내용은 <a href="https://cloud.google.com/bigquery/quotas">Big Query Quotas and Limits</a>에서 확인 바란다.</li>
+  <li>Options</li>
 </ul>
 
-<h3 id="3-사용-가능-환경">3. 사용 가능 환경</h3>
+<blockquote>
 
-<ul>
-  <li>
-    <p>BigQuery UI</p>
-  </li>
-  <li>
-    <p>bq CLI Tool</p>
-  </li>
-  <li>
-    <p>Big Query Rest API</p>
-  </li>
-  <li>
-    <p>Jupyter Notebook 또는 BI Platform과 같은 외부 플랫폼</p>
-  </li>
-</ul>
+</blockquote>
 
-<p>다음 포스팅은 Big Query ML을 간단히 사용해보는 포스팅을 해보고자 한다.</p>
+<table>
+  <thead>
+    <tr>
+      <th>NAME</th>
+      <th>VALUE</th>
+      <th>Details</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>model_type</strong></td>
+      <td>linear_reg<br />logistic_reg</td>
+      <td>‘linear_reg’는 <a href="https://developers.google.com/machine-learning/glossary/#linear_regression">linear regression</a> model을 생성하는데 사용하는 Option이고, ‘logistic_reg’ <a href="https://developers.google.com/machine-learning/glossary/#logistic_regression">logistic regression</a> model을 생성하는데 사용한다.해당 Option은 필수로 입력 해야 한다.</td>
+      <td>model_type=‘linear_reg’<br />model_type=‘logistic_reg’</td>
+    </tr>
+    <tr>
+      <td><strong>input_label_cols</strong></td>
+      <td>STRING</td>
+      <td>학습에 이용되는 Label 컬럼의 이름을 배열로 열거 한다. 배열이라 해도 하나의 컬럼일 경우 하나의 Label 컬럼을 명시 할 수 있다. 만약, 이 Option이 지정되지 않은 경우 Query 하는 Dataset 컬럼 명 중, “label”이라는 이름이 된 컬럼의 경우 이것을 하나의 input_label로 인식한다. 그 마저 없다면, 모델 생성은 실패한다. Linear Regression 모델의 Label column은 실제 수치 Measure 값(숫자값)으로 하고, Logistics Regression의 경우 Cardinality가 낮은 컬럼을 대상으로 설정 하도록 한다.</td>
+      <td>inupt_label_cols=[‘col1’,’col2’]</td>
+    </tr>
+    <tr>
+      <td><strong>l1_reg</strong></td>
+      <td>FLOAT64</td>
+      <td>Model의 L1 정규화를 진행. 여기서 말하는 정규화는 Model의 가중치를  조절 하여, 모델 접합성을 향상 시킨다. 기본값은 <strong>0</strong>.</td>
+      <td>l1_reg=0</td>
+    </tr>
+    <tr>
+      <td><strong>l2_reg</strong></td>
+      <td>FLOAT64</td>
+      <td>Model의 L2 정규화를 진행. 여기서 말하는 정규화는 Model의 가중치를  조절 하여, 모델 접합성을 향상 시킨다. 기본값은 <strong>0</strong>.</td>
+      <td>l2_reg=0</td>
+    </tr>
+    <tr>
+      <td><strong>max_iterations</strong></td>
+      <td>INT64</td>
+      <td>최대 반복 학습 횟수 기본값은 <strong>20</strong></td>
+      <td>max_iterations=20</td>
+    </tr>
+    <tr>
+      <td><strong>learn_rate_strategy</strong></td>
+      <td>line_search<br />constant</td>
+      <td>Training 동안 특정 Learning rate(학습률)를 선정함에 있어, 전략을 선택한다. 2가지 Option을 선택할 수 있다. 기본 값은 ‘line_search’line_search Option은 학습 속도를 늦추고 처리되는 바이트 수를 늘리지 만, 지정된 초기 학습 속도가 더 높더라도 일반적으로 수렴된다는 점에서 트레이드 오프가 될 수 있다. 이 때 learn_rate_stretegy Option에 대해 설정 하지 않거나 line_search일 경우, is_init_learn_rate값을 통해 ml.learn_info에 나타나는 learn_rate의 값을 두배로 설정 하길 Recommand 한다. 최적의 초기 learning rate는 모델 마다 다르므로, 이점을 확일 할 필요가 있다.</td>
+      <td>learn_rate_strategy=‘line_search’<br />learn_rate_strategy=‘constant’</td>
+    </tr>
+    <tr>
+      <td><strong>learn_rate</strong></td>
+      <td>FLOAT64</td>
+      <td>learn_rate_strategy Option이 <strong>constant</strong>일 경우 경사 하강법(<a href="https://developers.google.com/machine-learning/glossary/#gradient_descent">gradient descent</a>)의 learning rate를 설정 한다. 만약, learn_rate_strategy의 Option이 <strong>line_search</strong>일 경우 오류를 return 한다. 기본 값은 <strong>0.1</strong>이다. learn_rate_strategy가 ‘constant’일 경우 에만 사용하는 Option이다.</td>
+      <td>learn_rate=0.1</td>
+    </tr>
+    <tr>
+      <td><strong>early_stop</strong></td>
+      <td>BOOL</td>
+      <td>relative loss improvement(상대적 손실 개선)이 min_rel_progress 미만인 첫 번째 반복 이후에 학습이 중지되어야 함을 나타낸다. 기본값은 <strong>ture</strong></td>
+      <td>early_stop=ture</td>
+    </tr>
+    <tr>
+      <td><strong>min_rel_progress</strong></td>
+      <td>FLOAT64</td>
+      <td>The minimum relative loss improvement necessary to continue training when early_stop is set to true. For example, a value of 0.01 specifies that each iteration must reduce the loss by 1% for training to continue. The default value is 0.01.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>data_split_method</strong></td>
+      <td>auto_split<br />random<br />custom<br />seq<br />no_split</td>
+      <td>입력 데이터에 대해 Training과 Evaluation dataset을 나누는 방법에 대해 나타낸다. 여기서 Training data는 Model을 학습(training)시키는 데이터를 나타내고, Evaluation Data set은 training 이 후 early stop 시 <a href="https://developers.google.com/machine-learning/glossary/#overfitting">overfitting</a>을 피하기 위해 Training Model의 검증의 용도로 사용된다. 기본값은 auto_split이다. <strong>auto_split</strong> : Training data와 Evaluation data를 자동으로 분할 해주는 Option이다. <strong>random</strong> : 말 그대로 Dataset을 임의적으로 나눈다. (다른 Training을 실시 하면, 서로 다른 Split 결과가 나타난다.)<strong>custom</strong> : BOOL이란 이름으로 사용자가 컬럼을 만들어 Training Data와 Evaluation Data를 분할 한다. 여기서 컬럼의 값이 ‘true’일 경우 evaluation data로 사용하고 ‘false’일 경우 training data로 사용 한다. <strong>seq</strong> : 사용자가 제공한 Column을 순차적으로 나눈다. 이때 순차적으로 사용 할 수 있는 Column은 NUMERIC, STRING, TIMESTAMP이다. 나머지 Row는(Null을 포함한 모든 값)은 Evaluation data로 활용된다. <strong>no_split</strong> : 모든 데이터를 Training data 로 사용한다. 만약, data_split_method Option을 명시 하지 않으면, 해당 Option은 auto_split으로 수행되며 auto_split은 아래와 같은 순서로 진행 된다.      1. 입력 데이터가 500개 이하라면, 모든 데이터를 Training Data로 활용 한다.      2. 입력 데이터가 500개에서 50000개 사이면 20%의 비율을 Evaluation Data로 활용한다.      3. 50000개 이상의 입력 Data의 경우 무작위로 10000개의 데이터를 나누어 Evaluation Data로 사용 된다.</td>
+      <td>data_split_method=‘auto_split’<br />ordata_split_method=‘random’<br />ordata_split_method=‘custom’<br />ordata_split_method=‘seq’<br />ordata_split_method=‘no_split’</td>
+    </tr>
+    <tr>
+      <td><strong>data_split_eval_fraction</strong></td>
+      <td>FLOAT64</td>
+      <td>이 옵션은 data_split_method Option이 ‘random’, ‘seq’ Option일 경우 사용한다. 이 Option은 평가에 사용된 데이터에 대한 소수점 값으로 해당 값은 평가에 대한 기준점역할을 한다. 기본값은 <strong>0.2</strong></td>
+      <td>data_split_eval_fraction=0.2</td>
+    </tr>
+    <tr>
+      <td><strong>data_split_col</strong></td>
+      <td>STRING</td>
+      <td>데이터를 나누는데 기준이되는 Column을 명시하며, 선택된 컬럼은 자동으로 feature Column에서 제외 된다.  data_split_method option이 ‘custom’일 경우 해당 Option에 명시되는 Column의 타입은 Boolean이여야 한다. 이 때, Row에 해당 Column이 true나 Null값이 있을 경우, 해당 컬럼은 Evaluation Data로 사용 되고, 나머지 false인 값은 Training데이터로 사용된다. data_split_method option이 ‘seq’일 경우 해당 Column의 마지막 data_split_fraction Row (최소값에서 최대값까지)이 평가 데이터로 사용된다. 첫번째 Row는 training data로 사용된다.</td>
+      <td>data_split_col=‘col1’</td>
+    </tr>
+    <tr>
+      <td><strong>ls_init_learn_rate</strong></td>
+      <td>DOUBLE</td>
+      <td>learn_rate_strategy=‘line_search’일경우 사용하며, 이 Option은 line_rate_strategy=‘line_search’일 경우만 사용 할 수 있다.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>warm_start</strong></td>
+      <td>BOOL</td>
+      <td>이 Option은 새로운 Training Data와 새로운 모델의 옵션, 혹은 둘다 사용 하는데 이용된다. 명시 적으로 재 정의되지 않으면 모델을 학습하는 데 사용 된 초기 옵션이 Warm start 실행에 사용됩니다. 기본값은 <strong>false</strong>.Warm start 실행에서는 반복 횟수가 0에서 시작하도록 재 설정된다. training_run No. 또는 TIMESTAMP 열은 Warm start 실행을 원래 실행과 구별하는 데 사용될 수 있다. model_type과 label Option, 그리고 Training Data의 Schema의 변경은 Warm start에서 변경 할 수 없다.</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="2-prediction-예측">2. Prediction (예측)</h2>
+
+<p>Prediction은 ML.PREDICT를 이용하여 예측결과를 도출 한다. 사용법은 아래와 같다.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">#</span><span class="n">StandardSQL</span>
+<span class="k">Select</span> <span class="o">**</span><span class="n">predictive_label</span><span class="o">**</span> <span class="o">//</span> <span class="err">예측</span> <span class="err">결과</span> <span class="n">Label</span> 
+	<span class="p">,</span>  	<span class="n">col1</span>
+	<span class="p">,</span>	<span class="n">col2</span> <span class="p">...</span> 
+<span class="k">From</span> <span class="n">ML</span><span class="p">.</span><span class="n">PREDICT</span><span class="p">(</span><span class="n">MODEL</span> <span class="s1">'[MODEL_NAME]'</span><span class="p">,</span> <span class="p">[</span><span class="n">SQL_Statement</span><span class="p">]</span> <span class="p">)</span>
+</code></pre></div></div>
+
+<p>다음 포스트는 실제로 사용하기 위한 예제를 포스팅 해보도록 하겠다.</p>
 
                 </div>
             </section>
@@ -302,25 +386,20 @@ into the {body} of the default.hbs template -->
                                 
                                   
                                     
-                                  
-                                
-                                  
-                                
-                                  
-                                    
                                         
                                         
-                                            <li><a href="/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5">Big Query ML 뜯어보기</a></li>
+                                            <li><a href="/Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML">Democratization of Machine Learning - Bigquery ML</a></li>
                                         
                                     
                                   
                                 
                                   
+                                
+                                  
                                     
-                                        
-                                        
-                                            <li><a href="/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB">Big Query ML 뜯어보기</a></li>
-                                        
+                                  
+                                
+                                  
                                     
                                   
                                 
@@ -339,27 +418,24 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
                 
     <article class="post-card post-template no-image">
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/Google-Cloud-SDK-Install">
+            <a class="post-card-content-link" href="/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Getting-started</span>
+                                <span class="post-card-tags">Bigquery</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Google Cloud SDK (gcloud) Install</h2>
+                    <h2 class="post-card-title">Big Query ML 뜯어보기</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>Google Cloud는 Cloud위의 Resource를 관리할 수 있는 2가지 도구를 제공한다. 하나는 Cloud Web Console이고, 또 다른 하나는 CLI(Command Line Interface : 명령표시줄)로 관리할 수있는 Cloud SDK가 그것이다. 뿐만아니라 Google은 Cloud 위의 자원을 관리하기</p>
+                    <p>이번 포스트는 Big Query ML을 뜯어 보고자 한다. Bigquery ML을 위해서는 아래와 같이 2가지 Step을 거친다. ## 1. Model Creation (모델 생성) - Bigquery ML의 모델을 생성 하는 것은 익히 알고 있는 Create</p>
                 </section>
             </a>
             <footer class="post-card-meta">
@@ -379,6 +455,9 @@ into the {body} of the default.hbs template -->
 
             
 
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
         </div>
     </div>
 </aside>
@@ -392,18 +471,18 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Democratization of Machine Learning - Bigquery ML</div>
+    <div class="floating-header-title">Big Query ML 뜯어보기</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Democratization+of+Machine+Learning+-+Bigquery+ML&amp;url=https://jay-pak.github.io/Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Big+Query+ML+%EB%9C%AF%EC%96%B4%EB%B3%B4%EA%B8%B0&amp;url=https://jay-pak.github.io/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jay-pak.github.io/Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jay-pak.github.io/BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
