@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://jay-pak.github.io/Big-Query-ML-Use-(1).html</loc>
+        
+        <lastmod>2018-09-13T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>daily</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://jay-pak.github.io/Google-Cloud-Democratization-of-Machine-Learning-Bigquery-ML.html</loc>
         
         <lastmod>2018-09-06T19:18:00+09:00</lastmod>
