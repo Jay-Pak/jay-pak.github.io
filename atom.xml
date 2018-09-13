@@ -23,21 +23,6 @@
     
       
       <item>
-        <title>Big Query ML 뜯어보기</title>
-        
-          <description>&lt;p&gt;이번 포스트는 Big Query ML을 뜯어 보고자 한다.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 06 Sep 2018 10:18:00 +0000</pubDate>
-        <link>
-        https://jay-pak.github.io/Google-Cloud-BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5</link>
-        <guid isPermaLink="true">https://jay-pak.github.io/Google-Cloud-BigQuery-ML-%E1%84%84%E1%85%B3%E1%86%AE%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Google Cloud SDK (gcloud) Install</title>
         
           <description>&lt;p&gt;Google Cloud는 Cloud위의 Resource를 관리할 수 있는 2가지 도구를 제공한다. 하나는 &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Cloud Web Console&lt;/code&gt;&lt;/a&gt;이고, 또 다른 하나는 &lt;code class=&quot;highlighter-rouge&quot;&gt;CLI(Command Line Interface : 명령표시줄)&lt;/code&gt;로 관리할 수있는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Cloud SDK&lt;/code&gt;가 그것이다. 뿐만아니라 Google은 Cloud 위의 자원을 관리하기 편하도록 &lt;code class=&quot;highlighter-rouge&quot;&gt;RestAPI&lt;/code&gt;를 이용한 도구를 제공하여 자원의 Deploy를 Automation 할 수 있도록 Library를 제공한다. (Java 혹은 PIP, NodeJS etc.). Cloud SDK는 Cloud Resource를 관리 함에 있어 편리하고 빠르게 관리 할 수 있는 방법을 제공한다.&lt;/p&gt;
