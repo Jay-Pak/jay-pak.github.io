@@ -8,6 +8,23 @@
     
       
       <item>
+        <title>Big Query ML 이용해 보기 (1)</title>
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;./Big-Query-ML-Use-(1)&quot;&gt;1. Big Query ML 이용해보기 (1) - Understanding Data(Business)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Thu, 06 Sep 2018 10:18:00 +0000</pubDate>
+        <link>
+        https://jay-pak.github.io/Big-Query-ML-Use-(1)</link>
+        <guid isPermaLink="true">https://jay-pak.github.io/Big-Query-ML-Use-(1)</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Democratization of Machine Learning - Bigquery ML</title>
         
           <description>&lt;p&gt;지난 7월 미국 San Francisco Mountain - View에서 있었던 Google Next’18 에서 Big Query ML에 대한 Announce 가 있었다. 이번 포스팅에서는 Big Query ML에 대한 간략한 소개에 대해 이야기 해보고자 한다.&lt;/p&gt;
