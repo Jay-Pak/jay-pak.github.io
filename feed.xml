@@ -5,12 +5,12 @@
     <description>My Study Space....</description>
     <link>https://jay-pak.github.io//</link>
     <atom:link href="https://jay-pak.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Sep 2018 10:46:26 +0900</pubDate>
-    <lastBuildDate>Thu, 13 Sep 2018 10:46:26 +0900</lastBuildDate>
+    <pubDate>Thu, 13 Sep 2018 10:47:39 +0900</pubDate>
+    <lastBuildDate>Thu, 13 Sep 2018 10:47:39 +0900</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>Big Query Ml Use (1)</title>
+        <title>Big Query ML 이용해 보기 (1)</title>
         <description>&lt;p&gt;이번 포스트에서는 Binary logistics Regressor를 이용한 Classification Model을 BigQuery ML을 이용하여 만들어 보고자 한다.&lt;/p&gt;
 
 &lt;p&gt;앞서 이야기한대로 &lt;code class=&quot;highlighter-rouge&quot;&gt;BigQuery ML&lt;/code&gt;은 Linear Regression(선형 회귀), Binary logistic regression(이진 로지스틱 회귀)의 모델을 생성 할 수 있다. &lt;code class=&quot;highlighter-rouge&quot;&gt;Linear Regressor&lt;/code&gt;는 수치를 예측 하고자 할 때, &lt;code class=&quot;highlighter-rouge&quot;&gt;Binary logistics regression&lt;/code&gt;은 분류 예측을 하고자 할때 사용한다.&lt;/p&gt;
@@ -53,9 +53,11 @@
 &lt;/center&gt;
 
 </description>
-        <pubDate>Thu, 13 Sep 2018 00:00:00 +0900</pubDate>
+        <pubDate>Thu, 06 Sep 2018 19:18:00 +0900</pubDate>
         <link>https://jay-pak.github.io//Big-Query-ML-Use-(1)</link>
         <guid isPermaLink="true">https://jay-pak.github.io//Big-Query-ML-Use-(1)</guid>
+        
+        <category>bigquery</category>
         
         
       </item>
