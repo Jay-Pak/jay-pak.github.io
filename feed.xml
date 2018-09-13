@@ -5,8 +5,8 @@
     <description>My Study Space....</description>
     <link>https://jay-pak.github.io//</link>
     <atom:link href="https://jay-pak.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Sep 2018 15:15:40 +0900</pubDate>
-    <lastBuildDate>Thu, 13 Sep 2018 15:15:40 +0900</lastBuildDate>
+    <pubDate>Thu, 13 Sep 2018 15:20:49 +0900</pubDate>
+    <lastBuildDate>Thu, 13 Sep 2018 15:20:49 +0900</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -29,6 +29,11 @@
 
 &lt;p&gt;우선 데이터의 이해를 위해 전체 방문자 대비 구매자의 비율을 구하는 쿼리를 수행 해보도록 한다.&lt;/p&gt;
 
+&lt;blockquote&gt;
+  &lt;noscript&gt;&lt;pre&gt;404: Not Found
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;lt;/pre&amp;gt;&amp;lt;/noscript&amp;gt;&lt;script src=&quot;https://gist.github.com/Jay-Pak/980199b2dc257a54a52c990c76e38de2.js.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 
   &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;standardSQL&lt;/span&gt;
