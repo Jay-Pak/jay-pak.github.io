@@ -5,8 +5,8 @@
     <description>My Study Space....</description>
     <link>https://jay-pak.github.io//</link>
     <atom:link href="https://jay-pak.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Sep 2018 17:39:21 +0900</pubDate>
-    <lastBuildDate>Thu, 13 Sep 2018 17:39:21 +0900</lastBuildDate>
+    <pubDate>Thu, 13 Sep 2018 17:46:22 +0900</pubDate>
+    <lastBuildDate>Thu, 13 Sep 2018 17:46:22 +0900</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -130,9 +130,7 @@
     
       <item>
         <title>Democratization of Machine Learning - Bigquery ML</title>
-        <description>&lt;p&gt;지난 7월 미국 San Francisco Mountain - View에서 있었던 Google Next’18 에서 Big Query ML에 대한 Announce 가 있었다. 이번 포스팅에서는 Big Query ML에 대한 간략한 소개에 대해 이야기 해보고자 한다.&lt;/p&gt;
-
-&lt;center&gt;
+        <description>&lt;center&gt;
     &lt;img src=&quot;https://lh3.googleusercontent.com/-yYQHr3BnoKU/WvsR07QaYiI/AAAAAAAABgA/V2WfyrpctnInmJb-9B9E-MuMQ7ehPdzkgCJoC/w530-h298-n-rw/NEXT_2018_COLOR_TWITTER%2B%25284%2529.gif&quot; /&gt;
     &lt;br /&gt;
 	&lt;em&gt;Google Next&lt;/em&gt;
