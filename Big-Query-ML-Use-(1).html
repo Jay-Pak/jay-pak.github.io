@@ -249,10 +249,6 @@ into the {body} of the default.hbs template -->
     <em>&lt; Fig. 2 - 매출 상위 5개 제품 &gt;</em>
 </center>
 
-</blockquote>
-
-<blockquote>
-
   <blockquote>
     <p>위 Query는 전체 매출 중 가장 많이 팔린 상품 명과 수량에 대해, 상위 5개를 보여주는 쿼리이다.이때, From 절의 Inline View 쿼리 중 <code class="highlighter-rouge">UNNEST(hits)</code>, <code class="highlighter-rouge">UNNEST(h.product)</code>를 볼 수 있는데, 이는 해당 Table의 <code class="highlighter-rouge">Denormalize</code> 된 테이블의 Reapeat Column을 사용하는 것이고, Target Table의 Dataset의 1개의 Row에 대응되는 Repeat 컬럼에 대해 배열로 나열 하여, 연산 하는데 사용하려는 것이다. 다시 말해 Unnest Keyword는 Denormalize 된 Table의 Row에 대해 하나의 배열 타입으로 바꿔서 하나의 테이블로 인식 하는 역할을 해주는 것이다. 즉, Query 상에서 Table의 Row에 대해 1:N의 형태로 풀어 주는 역할을 한다.</p>
   </blockquote>
