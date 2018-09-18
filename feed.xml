@@ -5,8 +5,8 @@
     <description>My Study Space....</description>
     <link>https://jay-pak.github.io//</link>
     <atom:link href="https://jay-pak.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Sep 2018 11:17:33 +0900</pubDate>
-    <lastBuildDate>Fri, 14 Sep 2018 11:17:33 +0900</lastBuildDate>
+    <pubDate>Tue, 18 Sep 2018 11:11:24 +0900</pubDate>
+    <lastBuildDate>Tue, 18 Sep 2018 11:11:24 +0900</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -57,7 +57,7 @@
 &lt;blockquote&gt;
 
   &lt;center&gt;
-    &lt;img src=&quot;../assets/images/bigquery/Bigquery-ML-1.png&quot; /&gt;
+    &lt;img src=&quot;./images/bigquery/Bigquery-ML-1.png&quot; /&gt;
 	&lt;br /&gt;
     &lt;em&gt;&amp;lt; Fig. 1 - 방문자 대비 실제 구매자 &amp;gt;&lt;/em&gt;
 &lt;/center&gt;
@@ -95,7 +95,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 
   &lt;center&gt;
-    &lt;img src=&quot;../assets/images/bigquery/Bigquery-ML-2.png&quot; /&gt;
+    &lt;img src=&quot;./images/bigquery/Bigquery-ML-2.png&quot; /&gt;
 	&lt;br /&gt;
     &lt;em&gt;&amp;lt; Fig. 2 - 매출 상위 5개 제품 &amp;gt;&lt;/em&gt;
 &lt;/center&gt;
