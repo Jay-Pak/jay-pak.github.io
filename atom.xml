@@ -8,51 +8,6 @@
     
       
       <item>
-        <title>Google Cloud Load Balancer</title>
-        
-          <description>&lt;h1 id=&quot;google-cloud-load-balancer&quot;&gt;Google Cloud Load Balancer&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Mon, 03 Dec 2018 00:00:00 +0900</pubDate>
-        <link>
-        https://jay-pak.github.io/Load-Balancer</link>
-        <guid isPermaLink="true">https://jay-pak.github.io/Load-Balancer</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Lotte Members</title>
-        
-          <description>&lt;h1 id=&quot;chat-bot-관련-meeting&quot;&gt;Chat Bot 관련 Meeting&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Tue, 23 Oct 2018 00:00:00 +0900</pubDate>
-        <link>
-        https://jay-pak.github.io/Lotte-Members</link>
-        <guid isPermaLink="true">https://jay-pak.github.io/Lotte-Members</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Microservice Architecture 소개 (1)</title>
-        
-          <description>&lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Fri, 19 Oct 2018 00:00:00 +0900</pubDate>
-        <link>
-        https://jay-pak.github.io/msa-1</link>
-        <guid isPermaLink="true">https://jay-pak.github.io/msa-1</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1</title>
         
           <description>&lt;h1 id=&quot;linux-docker-설치하기--with-google-cloud-compute-engine---1&quot;&gt;Linux Docker 설치하기 ( With Google Cloud Compute Engine) - 1&lt;/h1&gt;
@@ -63,21 +18,6 @@
         <link>
         https://jay-pak.github.io/Compute-engine-docker</link>
         <guid isPermaLink="true">https://jay-pak.github.io/Compute-engine-docker</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Google Vault</title>
-        
-          <description>&lt;h1 id=&quot;google-vault-란&quot;&gt;Google Vault 란?&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Fri, 28 Sep 2018 00:00:00 +0900</pubDate>
-        <link>
-        https://jay-pak.github.io/Google-Vault-Usage</link>
-        <guid isPermaLink="true">https://jay-pak.github.io/Google-Vault-Usage</guid>
       </item>
       
     
