@@ -4,6 +4,86 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://jay-pak.github.io/Load-Balancer.html</loc>
+        
+        <lastmod>2018-12-03T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>daily</changefreq>
+        
+
+        
+        <priority>1.0</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://jay-pak.github.io/Lotte-Members.html</loc>
+        
+        <lastmod>2018-10-23T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>daily</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://jay-pak.github.io/msa-1.html</loc>
+        
+        <lastmod>2018-10-19T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>daily</changefreq>
+        
+
+        
+        <priority>1.0</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://jay-pak.github.io/Compute-engine-docker.html</loc>
+        
+        <lastmod>2018-10-01T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>daily</changefreq>
+        
+
+        
+        <priority>1.0</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://jay-pak.github.io/Google-Vault-Usage.html</loc>
+        
+        <lastmod>2018-09-28T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>daily</changefreq>
+        
+
+        
+        <priority>0.1</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://jay-pak.github.io/Google-Cloud-Plarform-Join.html</loc>
         
         <lastmod>2018-09-18T00:00:00+09:00</lastmod>

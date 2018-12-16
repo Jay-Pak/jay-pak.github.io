@@ -11,7 +11,7 @@
 
 
 
-    <title>Google Cloud Compute Engine (1) - Project 생성하기</title>
+    <title>Google Cloud Load Balancer</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css"/>
@@ -26,30 +26,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="My Study Space...." />
     <link rel="shortcut icon" href="https://jay-pak.github.io/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1" />
+    <link rel="canonical" href="https://jay-pak.github.io/Load-Balancer" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="To Be Continue....." />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Google Cloud Compute Engine (1) - Project 생성하기" />
-    <meta property="og:description" content="Google Cloud Compute Engine (1) - Project 생성하기 Google Cloud Compute Engine (2) - Compute Engine Instance 생성 이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아 보도록 하겠다. Google Cloud Compute Engine(GCE)은 Google Cloud 내에 가상 머신(Virtual Machine=VM)으로 Google Cloud의 IaaS(Infrastructure as a Service)이다. Compute Engine을" />
-    <meta property="og:url" content="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1" />
-    <meta property="og:image" content="https://jay-pak.github.io/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg" />
+    <meta property="og:title" content="Google Cloud Load Balancer" />
+    <meta property="og:description" content="Google Cloud Load Balancer Load Balancer? Load Balancer(부하 분산기)는 왜 필요 할까? 만약, 이글을 읽고 있는 당신이 인터넷 Shopping Mall을 운영 한다고 가정을 하자. 인터넷 쇼핑몰을 운영 하기 위해서는 당연한 이야기지만 Web Application이나 Mobile App이 필요 할 것이다. 그리고, 주문을 받거나, Contents를 저장할 Database나 Storage등이 필요 할 것이다. 여기서 만약" />
+    <meta property="og:url" content="https://jay-pak.github.io/Load-Balancer" />
+    <meta property="og:image" content="https://jay-pak.github.io/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/ITLimited" />
     <meta property="article:author" content="https://www.facebook.com/ITLimited" />
-    <meta property="article:published_time" content="2018-09-18T00:00:00+09:00" />
-    <meta property="article:modified_time" content="2018-09-18T00:00:00+09:00" />
-    <meta property="article:tag" content="Getting-started" />
+    <meta property="article:published_time" content="2018-12-03T00:00:00+09:00" />
+    <meta property="article:modified_time" content="2018-12-03T00:00:00+09:00" />
+    <meta property="article:tag" content="Infrastructure" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Google Cloud Compute Engine (1) - Project 생성하기" />
-    <meta name="twitter:description" content="Google Cloud Compute Engine (1) - Project 생성하기 Google Cloud Compute Engine (2) - Compute Engine Instance 생성 이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아 보도록 하겠다. Google Cloud Compute Engine(GCE)은 Google Cloud 내에 가상 머신(Virtual Machine=VM)으로 Google Cloud의 IaaS(Infrastructure as a Service)이다. Compute Engine을" />
+    <meta name="twitter:title" content="Google Cloud Load Balancer" />
+    <meta name="twitter:description" content="Google Cloud Load Balancer Load Balancer? Load Balancer(부하 분산기)는 왜 필요 할까? 만약, 이글을 읽고 있는 당신이 인터넷 Shopping Mall을 운영 한다고 가정을 하자. 인터넷 쇼핑몰을 운영 하기 위해서는 당연한 이야기지만 Web Application이나 Mobile App이 필요 할 것이다. 그리고, 주문을 받거나, Contents를 저장할 Database나 Storage등이 필요 할 것이다. 여기서 만약" />
     <meta name="twitter:url" content="https://jay-pak.github.io/" />
-    <meta name="twitter:image" content="https://jay-pak.github.io/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg" />
+    <meta name="twitter:image" content="https://jay-pak.github.io/assets/images/blog-cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="To Be Continue....." />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Getting-started" />
+    <meta name="twitter:data2" content="Infrastructure" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -64,18 +64,18 @@
         "name": "To Be Continue.....",
         "logo": "https://jay-pak.github.io/"
     },
-    "url": "https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1",
+    "url": "https://jay-pak.github.io/Load-Balancer",
     "image": {
         "@type": "ImageObject",
-        "url": "https://jay-pak.github.io/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg",
+        "url": "https://jay-pak.github.io/assets/images/blog-cover.jpg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1"
+        "@id": "https://jay-pak.github.io/Load-Balancer"
     },
-    "description": "Google Cloud Compute Engine (1) - Project 생성하기 Google Cloud Compute Engine (2) - Compute Engine Instance 생성 이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아 보도록 하겠다. Google Cloud Compute Engine(GCE)은 Google Cloud 내에 가상 머신(Virtual Machine=VM)으로 Google Cloud의 IaaS(Infrastructure as a Service)이다. Compute Engine을"
+    "description": "Google Cloud Load Balancer Load Balancer? Load Balancer(부하 분산기)는 왜 필요 할까? 만약, 이글을 읽고 있는 당신이 인터넷 Shopping Mall을 운영 한다고 가정을 하자. 인터넷 쇼핑몰을 운영 하기 위해서는 당연한 이야기지만 Web Application이나 Mobile App이 필요 할 것이다. 그리고, 주문을 받거나, Contents를 저장할 Database나 Storage등이 필요 할 것이다. 여기서 만약"
 }
     </script>
 
@@ -88,7 +88,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Google Cloud Compute Engine (1) - Project 생성하기" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Google Cloud Load Balancer" href="/feed.xml" />
 
 
 </head>
@@ -145,87 +145,235 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full post ">
+        <article class="post-full post no-image">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="18 September 2018">18 September 2018</time>
+                    <time class="post-full-meta-date" datetime=" 3 December 2018"> 3 December 2018</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/getting-started/'>GETTING-STARTED</a>
+                               <a href='/tag/infrastructure/'>INFRASTRUCTURE</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">Google Cloud Compute Engine (1) - Project 생성하기</h1>
+                <h1 class="post-full-title">Google Cloud Load Balancer</h1>
             </header>
 
-            
-            <figure class="post-full-image" style="background-image: url(/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg)">
-            </figure>
             
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <blockquote>
-  <p><a href="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1">Google Cloud Compute Engine (1) - Project 생성하기</a></p>
+                    <h1 id="google-cloud-load-balancer">Google Cloud Load Balancer</h1>
 
-  <p><a href="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-2">Google Cloud Compute Engine (2) - Compute Engine Instance 생성</a></p>
-</blockquote>
+<h2 id="load-balancer">Load Balancer?</h2>
 
-<p>이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아 보도록 하겠다. <a href="https://cloud.google.com/compute/">Google Cloud Compute Engine(GCE)</a>은 Google Cloud 내에 <a href="https://ko.wikipedia.org/wiki/%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0#%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0_%EC%9D%91%EC%9A%A9_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4">가상 머신(Virtual Machine=VM)</a>으로 Google Cloud의 <a href="https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A1%9C%EC%84%9C%EC%9D%98_%EC%9D%B8%ED%94%84%EB%9D%BC%EC%8A%A4%ED%8A%B8%EB%9F%AD%EC%B2%98">IaaS(Infrastructure as a Service)</a>이다. Compute Engine을 이용하면, Google의 Peta byte급의 Network 및 Persistant Disk 등의 자원을 저렴하게 이용할 수 있고, 높은 수준의 <a href="https://cloud.google.com/compute/sla">SLA(Service Level Agreement)</a>를 보장한다.</p>
+<p>Load Balancer(부하 분산기)는 왜 필요 할까? 만약, 이글을 읽고 있는 당신이 인터넷 Shopping Mall을 운영 한다고 가정을 하자. 인터넷 쇼핑몰을 운영 하기 위해서는 당연한 이야기지만 Web Application이나 Mobile App이 필요 할 것이다. 그리고, 주문을 받거나, Contents를  저장할 Database나 Storage등이 필요 할 것이다. 여기서 만약 쇼핑몰이 장사가 잘 안된다면? 그리고, 들어오는 사람이 많이 없다면? 좋은 인프라가 필요 없을 것이다. 하지만, 시간이 흘러 입소문을 타면서 쇼핑몰에 들어오는 사람이 많아진다면? 쇼핑몰 운영자인 당신은 Hardware의 Up-grade(Scale-up)을 먼저 생각 할 것이다. 하지만 이것은 임시 방편에 불과 하다. Hardware의 성능을 더 올린다고 해서</p>
 
-<p>Google Cloud의 Compute Engine Instance를 생성 하는 방법에는 2가지 방법이 있다.</p>
+<p>오늘은 Load Balancer에 대해 이야기 해보려고 한다.</p>
 
-<p>하나는, <a href="https://console.cloud.google.com/">Google Cloud Web Console</a>에서 생성하는 방법과 다른 하나는 앞서 설치 한 <a href="https://jay-pak.github.io/Google-Cloud-SDK-Install">Cloud SDK</a>를 이용한 방법이 있다. 그에 앞서 Project의 생성에 대해 먼저 알아 보도록 한다.</p>
+<p>Google Cloud의 Network Load Balancer는 Region Base로 지원 하며, L3, L7 Loadbalencer를 지원한다.</p>
 
-<h2 id="project-생성-optional">Project 생성 (Optional)</h2>
+<ul>
+  <li>Cloud Shell
+    <ul>
+      <li>Cloud Shell은 사용자가 필요한 모든 개발 Tool이 설치된  VM(Virtual Machine)을 불러 온다.</li>
+      <li>5GB의 Persistant Disk를 가지고, Google Cloud위에서 동작 하며, 네트워크 성능과 인증을 크게 향상 시킨다.</li>
+      <li>Cloud Shell에 처음 연결 하면 이미 인증이 된 상태를 볼수 있고, 자신의 PROJECT_ID가 설정 되어 있고, 확인은 아래 명령으로 확인 할 수 있다. 
+​    – gcloud  auth list 
+​              – Credentialed accounts:
+​                   - <myaccount>@<mydomain>.com (active)    
+​    -- gcloud config list project 
+​              -- [core]
+​                  project = <PROJECT_ID></PROJECT_ID></mydomain></myaccount></li>
+    </ul>
+  </li>
+</ul>
 
-<p>아래와 같이 Google Cloud Web Console로 접속 한다. 만약, Google Cloud Platform의 계정을 처음 활성화 한 상태라면, <code class="highlighter-rouge">My First Project</code>라는 Project 명이 보일 것이다. Test를 위해 간단히 할 것이라면, 처음 생성된 Project를 이용해도 무방하다. 그렇지 않고 신규로 생성하고 싶은 경우 아래와 같이 신규로 Project를 생성하도록 한다.</p>
+<p>** gcloud <Cloud SDK=""></Cloud></p>
+<ul>
+  <li><code class="highlighter-rouge">gcloud</code>는 Google Cloud Platform을 위한 강력 하며, 통일된 Command-list Tool 이다. 자세한 내용은 https://cloud.google.com/sdk/gcloud에서 확인 할 수 있다. 이것은 이미 Cloud shell에 이미 설치 된 상태로 제공 되며, Local PC에 설치를 위해서는 이 블로그의 <Cloud SDK="" 설치="">를 참조 하기 바란다.</Cloud></li>
+</ul>
 
-<p>Google Cloud Platform의 구조는 아래와 같은 구조로 이루어져있으며, 개인 사용자의 경우 간단히 Account 아래 여러 Project가 Sub로 붙어 있는 구조이다. 우선 아래 그림 [Fig 1.1]에서 처럼 Project를 Click하면 그림[Fig 1.2]의 프로젝트 생성을 위한 화면을 볼 수 있다.</p>
+<hr />
 
-<center>
-    <img src="../images/google-cloud-project-create/web-console-0.png" />
-	<br />
-    <em>[Fig 1-1. Google Cloud Console Project 선택]</em>
-</center>
+<p>** 모든 Resource를 위한 Default  Region과 zone 설정 하기 
+​      1. Cloud shell에서 Default Region or Zone을 설정 하려면 
+​       - gcloud config set compute/zone <zone_name>
+​       - gcloud config set compute/region <region_name>
+​          *** Google이 제공하고 있는 Region/Zone의 List를 확인 하고 싶다면, 
+​          ​        - gcloud compute regions list 
+​          ​        - gcloud compute zones list 
+​          1-1. Region 설정 하기 
+​        - gcloud config set compute/zone asia-northeast1-a 
+​        - gcloud config set compute/region asia-northeast1
+​          *** 개인 PC에서 gcloud를 사용할 때, config setting은 여러 session에서 지속적으로 적용 된다. Cloud Shell에서는 새로운 연결이나 재 연결시 설정을 해주어야 한다.</region_name></zone_name></p>
 
-<center>
-    <img src="../images/google-cloud-project-create/web-console-1.png" />
-	<br />
-    <em>[Fig 1-2. Project 생성] </em>
-</center>
+<p>** Multiful Web Server Instance  생성 하기
+​      1. Cluster 환경에서 Service를 Test하려면,. Instance Template 및 Managed Instance Group을 사용하여 nginx Web Server로 간단한 Cluster를 생성해서  Test하면 된다. Instance Template은 Cluster 내에 모든 Virtual Machine의  Template을 정의 한다. (Disk, CPU, Memory등) Managed Instance Group은 
+​      Instance Template을 이용하여 Virtual Machine을 Instance 화 한다.</p>
 
-<p>다른 방법으로는 그림 [Fig 2-1]에서 처럼 옆 &lt;img src=”../assets/images/top-menu.png” width=30px height=30px/&gt;를 클릭 해서 <code class="highlighter-rouge">IAM 및 관리자</code> - <code class="highlighter-rouge">리소스 관리</code> Menu를 클릭 하도록 한다.</p>
+<p>nGinx Web server Cluster 를 만들기 위해서는 다음과 같은 준비가 필요하다. 
+​                1. 모든 Virtual Machine Instance가 시작 될 때 Nginx Server 를 설정하는데 사용되는 Start up Script 
+​                2. 시작 Script를 사용하기 위한 Instance Template
+​                3. Target Pool 
+​                4. Instance Template을 사용한 Managed Instance Group</p>
 
-<center>
-    <img src="../images/google-cloud-project-create/menu-resource-0.png" />
-	<br />
-    <em>[Fig 2-1. Menu에서 리소스 관리 선택]</em>
-</center>
+<ol>
+  <li>
+    <p>Nginx Server 설정을 위한 Start up Script 만들기 
+   ​     - Cloud Shell을 열어 아래와 같은 절차로 shell File을 생성 한다.</p>
 
-<center>
-    <img src="../images/google-cloud-project-create/menu-resource-1.png" />
-	<br />
-    <em>[Fig 2-2. 리소스 관리에서 Project 만들기 선택]</em>
-</center>
+    <p>================================================
+  cat « EOF &gt; startup.sh
+  #! /bin/bash
+  apt-get update
+  apt-get install -y nginx
+  service nginx start
+  sed -i – ‘s/nginx/Google Cloud Platform - ‘”$HOSTNAME”’/’   \
+  /var/www/html/index.nginx-debian.html
+  EOF
+  ================================================</p>
+  </li>
+  <li>
+    <p>Instance Template을 생성한다. 
+  ================================================
+  gcloud compute instance-templates create nginx-cluster-template \</p>
 
-<center>
-    <img src="../images/google-cloud-project-create/menu-resource-2.png" />
-	<br />
-    <em>[Fig 2-3. Project 생성]</em>
-</center>
+    <p>–metadata-from-file startup-script=startup.sh 
+  ================================================</p>
+  </li>
+  <li>
+    <p>Target pool 생성 
+  Target Pool은 모든 Instance Template을 이용하여 생성된 VM Instance에 대해 단일한 Access Point를 제공/허용하며, 이후 Load Balancer에서 필요하다. 
+  ================================================
+  gcloud compute target-pools create nginx-pool
+  ================================================</p>
+  </li>
+  <li>
+    <p>앞서 생성한 Instance Template을 이용한 Managed Instance Group 생성 
+  ================================================
+  gcloud compute instance-groups managed create nginx-group \
+  –base-instance-name nginx \
+  –size 2 \
+  –template nginx-cluster-template \</p>
 
-<p>Project 생성 시 <code class="highlighter-rouge">Project 이름</code>은 중복이 가능 하나, 아래 작은 글씨로 자동 생성된 <code class="highlighter-rouge">Project ID</code>는 다른 Google Cloud 내에 다른 Project들과 중복이 되면 안된다. 그리고, <code class="highlighter-rouge">Project ID</code>는 향후 변경 할 수 없으므로, 대규모 Project에서 여러 Project를 연결 할 경우 Naming Rule을 결정 할 필요가 있다. 이는 다음에 자세히 살펴보도록 한다.</p>
+    <p>–target-pool nginx-pool 
+  ================================================</p>
+  </li>
+</ol>
 
-<p>이번에는 Project 생성에 대해 알아 보았다. 전사(Enterprise)의 시각으로 보자면 Project의 생성은 곧 하나의 조직이 될수 있고, 이는 논리적인 하나의 업무 혹은 조직이 될 수 있으며, 조직의 구조는 Cloud에 있는 Landscape의 구조로 볼 수 있을 것이다. 때문에, Project의 구조를 잡는것은 관리적인 측면에서 아주 중요한 부분이 될 수 있을 것이고, 효율적인 IT 운영의 첫걸음이 될 수 있을 것이다.</p>
+<p>위와 같은 절차를 거치고 나면 <code class="highlighter-rouge">nginx-</code>라는  prefix로 2개의 instance가 생성이 된것을 볼 수 있다.</p>
 
-<p>아직은 Cloud의 경험이 적어 이런 부분에 대한 포스팅을 하긴 어렵다. 이런 부분은 Project의 경험이 많이 필요하기 때문에, 향후 나중에 포스팅 할 기회가 있으면 해보도록 하려고 한다.</p>
+<p>모든 작업이 완료 되고 나면, 아래 명령으로 VM Instance 생성을 확인 해 보도록 한다. 
+​     ================================================
+​     gcloud compute instances list 
+​     ================================================</p>
 
-<p>다음은 본격적으로 Google Cloud Compute Engine의 생성/삭제에 대해 알아보도록 하겠다.</p>
+<p>외부 IP를 통해 80 port로 연결 할 수 있는 방화벽을 구성하도록 한다. 
+​     ================================================
+​     gcloud compute firewall-rules create www-firewall –allow tcp:80
+​     ================================================
+작업이 완료 되고 나면 각 instance의 외부  IP를 통해 Instance에 연결 할 수 있어야 한다. local pc 에서 http://EXTERNAL_IP를 통해 확인 해보록 한다.</p>
+
+<p>Newwork Balancer 생성하기 (L3)
+Network Load Balancer를 이용하면  IP Address, Port 및 Protocol 유형과 같이 인입되는 IP Protocol Data를 기반으로 System의 부하를 분산할 수 있다. 
+하지만, HTTP Load Balancer와 함께 사용할 수 없는 몇가지 Option이 있다. 
+예를 들면, SMTP Traffic과 같이 추가 적인 TCP/UDP기반 Protocol을 Local Balancing 할 수 있다. 그리고 Application이 TCP-Connection-related 관련 특성에 대해 HTTP Network Load Balencer와는 달리  Application 이 Packet을 검사 할 수 있다. 자세한 내용은 https://cloud.google.com/load-balancing/docs/network/에서 확인 할 수 있다.</p>
+
+<p>아래 Script를 통해 앞서 생성한 Instance Group에 L3(Network Layer) Network Load Balancer를 생성한다. 
+​     ================================================
+​      gcloud compute forwarding-rules create nginx-lb \
+​         –region asia-northeast1 \
+​         –ports=80 \
+​         –target-pool nginx-pool
+​     ================================================
+생성 후 Instance group의 forwarding rule을 확인 한다. 
+​     ================================================
+​     gcloud compute forwarding-rules list
+​     ================================================</p>
+
+<p>위 Command를 통해 확인된 IP Addess를 통해 접속이 가능한지 확인하도록 한다. 
+​     ================================================
+​     NAME     REGION       IP_ADDRESS     IP_PROTOCOL TARGET
+​     nginx-lb  us-central1  X.X.X.X              TCP                    us-central1/targetPools/nginx-pool
+​     ================================================
+Browser를 열어 http://[IP_ADDRESS]를 통해 확인 해보록 한다.</p>
+
+<p>HTTP(S) Load Balancer 생성하기 (L7)
+HTTP(S) Load Balancer는 Compute Engine Instance에 인입 되는 HTTP(S) 요청(Request)에 대해 Global Load Balancing을 지원 한다. 일부의  URL을 하나의 Instance Set으로 Routing 하고, 다른 URL을 다른 Instance로 Routing 하는 URL Rule을 구성 할 수있다. 요청들은 조건에 부합하고, 충분한 capacity가 있는 경우 항상 가까운 instance group에 Routing 된다. 가장 가까운 Instance Group 의 용량이 충분 하지 않은 경우 가장 가까운 Instance Group으로 전달 된다. 자세한 내용은 https://cloud.google.com/compute/docs/load-balancing/http/ 에서 확인 해보도록 한다.</p>
+
+<ol>
+  <li>Health check 생성.
+    <ul>
+      <li>
+        <h1 id="health-check는-httphttps-traffic에-응답하는지-확인-한다">Health Check는 HTTP/HTTPS Traffic에 응답하는지 확인 한다.</h1>
+        <p>gcloud compute http-health-checks create http-basic-check 
+================================================</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>HTTP Service를 정의하고, Port 이름을 Instance Group에 관련된 Port에 Mapping 한다. 
+  ================================================
+  gcloud compute instance-groups managed \
+    set-named-ports nginx-group \</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>--named-ports http:80   ================================================
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Back-end Service 생성 
+  ================================================
+  gcloud compute backend-services create nginx-backend \</p>
+
+    <p>–protocol HTTP –http-health-checks http-basic-ckeck –global 
+  ================================================</p>
+  </li>
+  <li>
+    <p>back-end Service에 instance Group을 추가 한다. 
+  ================================================
+  gcloud compute backend-services add-backend nginx-backend \
+  –instance-group nginx-cluster-group \
+  –instance-group-zone asia-northeast1-a \</p>
+
+    <p>–global 
+  ================================================</p>
+  </li>
+  <li>
+    <p>들어오는 모든 Request들을 모든 Instance로 보내는 Default URL Map을 만든다. 
+ ================================================
+ gcloud compute url-maps create web-map \</p>
+
+    <p>–default-service nginx-backend
+ ================================================</p>
+  </li>
+  <li>앞서 생성한 Default URL Map에 요청을 Route하는 Target HTTP Proxy를 생성한다. 
+  ================================================
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  gcloud compute target-http-proxies create http-lb-proxy \
+  --url-map web-map
+     
+     
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>인입되는 요청을 처리하고 Route하는 Global forwarding Rule을 만든다. 전달 규칙은 IP Address및 Protocol 및 지정 Port에 따라 Traffic을 특정 Target HTTP/HTTPS Proxy 로 보낸다. Global Forwarding Rule은 여러 포트를 지원하지 않는다. 
+  ================================================
+  gcloud compute forwarding-rules create http-content-rule \
+     –global \
+     –target-http-proxy http-lb-proxy --ports 80</p>
+
+    <p>Global forwarding Rule을 만든 후에 Config가 Provisioning되기까지는 시간이 걸릴 수 있다. 아래에서 확인 하도록 한다.</p>
+
+    <p>gcloud compute forwarding-rules list
+  ================================================
+  전달 규칙에 대해 http-content-rule에 명시된 IP_ADDRESS를 기억 한다.</p>
+  </li>
+</ol>
+
+<p>browser 에서 http://IP_ADDRESS를 통해 연결을 시도 해보도록 한다. 모든 전달 규칙이 적용 되는데는 몇분이 걸리기때문에 안 될 시에 다시 load를 해보도록 한다.</p>
 
                 </div>
             </section>
@@ -310,7 +458,7 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; To Be Continue..... &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/getting-started/">Getting-started</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/infrastructure/">Infrastructure</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -320,49 +468,30 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/Compute-engine-docker">Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/Google-Vault-Usage">Google Vault</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/Google-Cloud-Plarform-Join">Google Cloud Platform 가입하기</a></li>
-                                        
                                     
                                   
                                 
                                   
                                 
                                   
-                                    
+                                
+                                  
+                                
+                                  
+                                
                                   
                                 
                                   
                                     
                                         
                                         
+                                            <li><a href="/Google-Cloud-Compute-Engine-Usage-2">Google Cloud Compute Engine (2) - Compute Engine Instance 생성</a></li>
+                                        
                                     
+                                  
+                                
+                                  
+                                
                                   
                                 
                                   
@@ -374,9 +503,9 @@ into the {body} of the default.hbs template -->
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/getting-started/">
+                            <a href="/tag/infrastructure/">
                                 
-                                    See all 4 posts  →
+                                    See all 1 posts  →
                                 
                             </a>
                         </footer>
@@ -386,96 +515,46 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/Google-Cloud-Compute-Engine-Usage-2">
-                <div class="post-card-image" style="background-image: url(/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/Google-Cloud-Compute-Engine-Usage-2">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Infrastructure</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Google Cloud Compute Engine (2) - Compute Engine Instance 생성</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>> [Google Cloud Compute Engine (1) - Project 생성하기]({{site.url}}/Google-Cloud-Compute-Engine-Usage-1) > > [Google Cloud Compute Engine (2) - Compute Engine Instance 생성]({{site.url}}/Google-Cloud-Compute-Engine-Usage-2) 이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg" alt="Compute Engine" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/compute-engine/">Compute Engine</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
                 
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/Google-Cloud-SDK-Install">
-                <div class="post-card-image" style="background-image: url(/assets/images/Icons/Products-Services/Developer-Tools/Cloud-SDK.svg)"></div>
-            </a>
+    <article class="post-card  no-image">
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/Google-Cloud-SDK-Install">
+            <a class="post-card-content-link" href="/Lotte-Members">
                 <header class="post-card-header">
                     
-                        
-                            
-                                <span class="post-card-tags">Getting-started</span>
-                            
-                        
-                    
 
-                    <h2 class="post-card-title">Google Cloud SDK Install</h2>
+                    <h2 class="post-card-title">Lotte Members</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>Google Cloud는 Cloud위의 Resource를 관리할 수 있는 2가지 도구를 제공한다. 하나는 Cloud Web Console이고, 또 다른 하나는 CLI(Command Line Interface : 명령표시줄)로 관리할 수있는 Cloud SDK가 그것이다. 뿐만아니라 Google은 Cloud 위의 자원을 관리하기</p>
+                    <p>Chat Bot 관련 Meeting
+
+
+  관련 내용 공유
+  Lotte Members
+    
+      상담원 Recommend
+      Admin, 상담원, 자연어
+      자연어 처리 Model
+        
+          문장 유사도
+          Topic Model
+          문서 검색엔진
+        
+      
+    
+  
+
+
+</p>
                 </section>
             </a>
             <footer class="post-card-meta">
                 
                     
                 
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/Icons/google-cloud-logo.png" alt="Google Cloud Platform" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/google-cloud/">Google Cloud Platform</a>
-                        </span>
                     
                 
                     
@@ -509,18 +588,18 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Google Cloud Compute Engine (1) - Project 생성하기</div>
+    <div class="floating-header-title">Google Cloud Load Balancer</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Google+Cloud+Compute+Engine+%281%29+-+Project+%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&amp;url=https://jay-pak.github.ioGoogle-Cloud-Compute-Engine-Usage-1"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Google+Cloud+Load+Balancer&amp;url=https://jay-pak.github.ioLoad-Balancer"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jay-pak.github.ioGoogle-Cloud-Compute-Engine-Usage-1"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jay-pak.github.ioLoad-Balancer"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 

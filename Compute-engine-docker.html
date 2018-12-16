@@ -11,7 +11,7 @@
 
 
 
-    <title>Google Cloud Compute Engine (1) - Project 생성하기</title>
+    <title>Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css"/>
@@ -26,24 +26,24 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="My Study Space...." />
     <link rel="shortcut icon" href="https://jay-pak.github.io/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1" />
+    <link rel="canonical" href="https://jay-pak.github.io/Compute-engine-docker" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="To Be Continue....." />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Google Cloud Compute Engine (1) - Project 생성하기" />
-    <meta property="og:description" content="Google Cloud Compute Engine (1) - Project 생성하기 Google Cloud Compute Engine (2) - Compute Engine Instance 생성 이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아 보도록 하겠다. Google Cloud Compute Engine(GCE)은 Google Cloud 내에 가상 머신(Virtual Machine=VM)으로 Google Cloud의 IaaS(Infrastructure as a Service)이다. Compute Engine을" />
-    <meta property="og:url" content="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1" />
+    <meta property="og:title" content="Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1" />
+    <meta property="og:description" content="Linux Docker 설치하기 ( With Google Cloud Compute Engine) - 1 사실 나는 개발쪽을 손을 놓은지 거의 5년이 되어 간다. 하지만 Cloud에 발을 들인 이상 개발쪽을 등한시 할 수 없어 다시 개발을 해보려고 한다. 사실 Data Engineering 일 혹은 Data Architect를 하면서 Meta Data를 수집 하기 위한 Thread Base의 Java" />
+    <meta property="og:url" content="https://jay-pak.github.io/Compute-engine-docker" />
     <meta property="og:image" content="https://jay-pak.github.io/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg" />
     <meta property="article:publisher" content="https://www.facebook.com/ITLimited" />
     <meta property="article:author" content="https://www.facebook.com/ITLimited" />
-    <meta property="article:published_time" content="2018-09-18T00:00:00+09:00" />
-    <meta property="article:modified_time" content="2018-09-18T00:00:00+09:00" />
+    <meta property="article:published_time" content="2018-10-01T00:00:00+09:00" />
+    <meta property="article:modified_time" content="2018-10-01T00:00:00+09:00" />
     <meta property="article:tag" content="Getting-started" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Google Cloud Compute Engine (1) - Project 생성하기" />
-    <meta name="twitter:description" content="Google Cloud Compute Engine (1) - Project 생성하기 Google Cloud Compute Engine (2) - Compute Engine Instance 생성 이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아 보도록 하겠다. Google Cloud Compute Engine(GCE)은 Google Cloud 내에 가상 머신(Virtual Machine=VM)으로 Google Cloud의 IaaS(Infrastructure as a Service)이다. Compute Engine을" />
+    <meta name="twitter:title" content="Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1" />
+    <meta name="twitter:description" content="Linux Docker 설치하기 ( With Google Cloud Compute Engine) - 1 사실 나는 개발쪽을 손을 놓은지 거의 5년이 되어 간다. 하지만 Cloud에 발을 들인 이상 개발쪽을 등한시 할 수 없어 다시 개발을 해보려고 한다. 사실 Data Engineering 일 혹은 Data Architect를 하면서 Meta Data를 수집 하기 위한 Thread Base의 Java" />
     <meta name="twitter:url" content="https://jay-pak.github.io/" />
     <meta name="twitter:image" content="https://jay-pak.github.io/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg" />
     <meta name="twitter:label1" content="Written by" />
@@ -64,7 +64,7 @@
         "name": "To Be Continue.....",
         "logo": "https://jay-pak.github.io/"
     },
-    "url": "https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1",
+    "url": "https://jay-pak.github.io/Compute-engine-docker",
     "image": {
         "@type": "ImageObject",
         "url": "https://jay-pak.github.io/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg",
@@ -73,9 +73,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1"
+        "@id": "https://jay-pak.github.io/Compute-engine-docker"
     },
-    "description": "Google Cloud Compute Engine (1) - Project 생성하기 Google Cloud Compute Engine (2) - Compute Engine Instance 생성 이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아 보도록 하겠다. Google Cloud Compute Engine(GCE)은 Google Cloud 내에 가상 머신(Virtual Machine=VM)으로 Google Cloud의 IaaS(Infrastructure as a Service)이다. Compute Engine을"
+    "description": "Linux Docker 설치하기 ( With Google Cloud Compute Engine) - 1 사실 나는 개발쪽을 손을 놓은지 거의 5년이 되어 간다. 하지만 Cloud에 발을 들인 이상 개발쪽을 등한시 할 수 없어 다시 개발을 해보려고 한다. 사실 Data Engineering 일 혹은 Data Architect를 하면서 Meta Data를 수집 하기 위한 Thread Base의 Java"
 }
     </script>
 
@@ -88,7 +88,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Google Cloud Compute Engine (1) - Project 생성하기" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1" href="/feed.xml" />
 
 
 </head>
@@ -149,7 +149,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="18 September 2018">18 September 2018</time>
+                    <time class="post-full-meta-date" datetime=" 1 October 2018"> 1 October 2018</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -159,7 +159,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Google Cloud Compute Engine (1) - Project 생성하기</h1>
+                <h1 class="post-full-title">Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1</h1>
             </header>
 
             
@@ -169,63 +169,153 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <blockquote>
-  <p><a href="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-1">Google Cloud Compute Engine (1) - Project 생성하기</a></p>
+                    <h1 id="linux-docker-설치하기--with-google-cloud-compute-engine---1">Linux Docker 설치하기 ( With Google Cloud Compute Engine) - 1</h1>
 
-  <p><a href="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-2">Google Cloud Compute Engine (2) - Compute Engine Instance 생성</a></p>
-</blockquote>
+<p>사실 나는 개발쪽을 손을 놓은지 거의 5년이 되어 간다. 하지만 Cloud에 발을 들인 이상 개발쪽을 등한시 할 수 없어 다시 개발을 해보려고 한다. 사실 Data Engineering 일 혹은 Data Architect를 하면서 Meta Data를 수집 하기 위한 Thread Base의 Java Application을 간혹 개발을 했지만, Web Application에 대해 손을 놓은건 거의 5년이 넘어 가는 거 같다. 5년의 세월 동안 많은 변화가 있는거 같다. 솔직히 무슨 말을 하는지도 모르겠다. Cloud를 하게 되며, 이제는 개발을 등한시 해서는 Data 분석에 대한 시야가 슬슬 좁아진다는 생각이 들기 시작 했다. 모든 데이터 분석이나 혹은 Machine Learning의 시작은 양질의 데이터의 수집에서 시작된다는 것을 잠시 잊고 살았던거 같다. 자조 적인 개소리(?)는 여기서 집어 치우고, 다시 개발을 하기 위한 시작을 위해 우선 환경부터 만들어 보고자 한다. 사실 Kubernetes를 사용 할 수 있지만 Kubernetes를 사용 해보기 앞서 일단 Docker의 기초를 다지고자 Docker 위에 Nginx와 Tomcat부터 해보기로 했다.</p>
 
-<p>이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아 보도록 하겠다. <a href="https://cloud.google.com/compute/">Google Cloud Compute Engine(GCE)</a>은 Google Cloud 내에 <a href="https://ko.wikipedia.org/wiki/%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0#%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0_%EC%9D%91%EC%9A%A9_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4">가상 머신(Virtual Machine=VM)</a>으로 Google Cloud의 <a href="https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A1%9C%EC%84%9C%EC%9D%98_%EC%9D%B8%ED%94%84%EB%9D%BC%EC%8A%A4%ED%8A%B8%EB%9F%AD%EC%B2%98">IaaS(Infrastructure as a Service)</a>이다. Compute Engine을 이용하면, Google의 Peta byte급의 Network 및 Persistant Disk 등의 자원을 저렴하게 이용할 수 있고, 높은 수준의 <a href="https://cloud.google.com/compute/sla">SLA(Service Level Agreement)</a>를 보장한다.</p>
+<h2 id="compute-engine-instance-만들기">Compute Engine Instance 만들기</h2>
 
-<p>Google Cloud의 Compute Engine Instance를 생성 하는 방법에는 2가지 방법이 있다.</p>
+<p>Compute Engine instance 만들기는 전에 Posting 한 <a href="https://jay-pak.github.io/Google-Cloud-Compute-Engine-Usage-2">Compute Engine 만들기</a> 를 참조하기 바란다. 이때 주의 할점은 <code class="highlighter-rouge">http 트래픽 허용</code>과 <code class="highlighter-rouge">https 트래픽</code>을 허용 하도록 한다.</p>
 
-<p>하나는, <a href="https://console.cloud.google.com/">Google Cloud Web Console</a>에서 생성하는 방법과 다른 하나는 앞서 설치 한 <a href="https://jay-pak.github.io/Google-Cloud-SDK-Install">Cloud SDK</a>를 이용한 방법이 있다. 그에 앞서 Project의 생성에 대해 먼저 알아 보도록 한다.</p>
+<h2 id="docker-설치">Docker 설치</h2>
 
-<h2 id="project-생성-optional">Project 생성 (Optional)</h2>
+<p>Docker는 Windows나 Linux에서 설치 가능하다. 여기서는 Linux에서 설치 하도록 한다. 설치를 위해 아래 Script를 실행한다.</p>
 
-<p>아래와 같이 Google Cloud Web Console로 접속 한다. 만약, Google Cloud Platform의 계정을 처음 활성화 한 상태라면, <code class="highlighter-rouge">My First Project</code>라는 Project 명이 보일 것이다. Test를 위해 간단히 할 것이라면, 처음 생성된 Project를 이용해도 무방하다. 그렇지 않고 신규로 생성하고 싶은 경우 아래와 같이 신규로 Project를 생성하도록 한다.</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update 
+<span class="nb">sudo </span>apt-get upgrade
+<span class="nb">sudo </span>curl <span class="nt">-fsSL</span> https://get.docker.com/ | <span class="nb">sudo </span>sh
+</code></pre></div></div>
 
-<p>Google Cloud Platform의 구조는 아래와 같은 구조로 이루어져있으며, 개인 사용자의 경우 간단히 Account 아래 여러 Project가 Sub로 붙어 있는 구조이다. 우선 아래 그림 [Fig 1.1]에서 처럼 Project를 Click하면 그림[Fig 1.2]의 프로젝트 생성을 위한 화면을 볼 수 있다.</p>
+<p>위 Script를 실행 하면 Docker의 설치가 시작 된다. Docker는 Root 계정 위에서 실행이 가능 하기 때문에 좀더 편리한 사용을 위해 아래 Script를 실행 한다.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>usermod <span class="nt">-aG</span> docker <span class="nv">$USER</span>
+</code></pre></div></div>
+
+<p>위 Script를 추가 후 ssh를 shell을 다시 열어 보면 sudo를 제외 하고 docker를 이용할 수 있다.</p>
+
+<p>이제 Docker가 설치 되었다. 아래 명령으로 Docker가 제대로 설치 되었는지 확인을 해보면 된다.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker version
+</code></pre></div></div>
+
+<h2 id="docker-image-얻기">Docker Image 얻기</h2>
+
+<p>이제 Docker가 설치 되었으니, Docker Container를 얻어야 한다. Docker는 Docker Hub에서 Image를 얻거나  DockerFile을 이용하여, Docker Image를 생성할 수도 있다. 여기서는 Docker hub에서 얻도록 한다.</p>
+
+<h3 id="docker-image-검색">Docker Image 검색</h3>
+
+<p>우선 아래 명령으로 Docker hub에 존재하는 Docker Image의 List를 보도록 한다.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker search tomcat
+</code></pre></div></div>
+
+<p>위 명령을 실행 하면 아래와 같이 Docker Hub에 존재하는 Docker Image의 List를 얻을 수 있다. 이때 <code class="highlighter-rouge">star</code> 를 보면 사람들이 추천하는 횟수를 볼 수 있다. 이를 기준으로 어떤 Image를 이용하면 된다.</p>
 
 <center>
-    <img src="../images/google-cloud-project-create/web-console-0.png" />
-	<br />
-    <em>[Fig 1-1. Google Cloud Console Project 선택]</em>
+    <img src="../images/docker-first/docker-search.png" />
+    <br />
+    <em>[Fig. 1 - Docker Hub Search]</em>
+</center>
+
+<p>찾고자 하는 Docker Image를 찾았다면, 아래 Script로 Docker Image를 얻도록 한다.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker pull <span class="o">[</span>Image Name]
+</code></pre></div></div>
+
+<p>우리는 tomcat을 설치 할 것이므로, tomcat의 이미지를 얻도록 한다.</p>
+
+<center>
+    <img src="../images/docker-first/docker-pull.png" />
+    <br />
+    <em>[Fig. 2 - Docker Image를 얻는다.]</em>
+</center>
+
+<p>위에서 <code class="highlighter-rouge">docker pull tomcat:8</code>에서 <code class="highlighter-rouge">tomcat:8</code> 을 주목 하면, tomcat의 Image 중 뒤에 Tag 된 Tomcat의 Version이 설치된 image를 얻을 수 있다.  예를 들어 Tomcat 6 Version을 얻고 싶다면 아래와 같이 얻도록 한다. 다른 Image의 Tag 내용을 알고 싶다면 Docker Hub를 참조하기 바란다.</p>
+
+<center>
+    <img src="../images/docker-first/docker-pull-tomcat-multi-version.png" />
+    <br />
+    <em>[Fig. 3 - 다른 버젼의 Tomcat Image를 얻기]</em>
+</center>
+
+<p>여기서는 최신 버젼인 <code class="highlighter-rouge">latest</code> 를 사용하도록 한다. 아래와 같이 받은 docker image를 삭제 하도록 한다.</p>
+
+<center>
+    <img src="../images/docker-first/docker-image-delete.png" />
+    <br />
+    <em>[Fig. 4 - Docker Image 삭제 하기]</em>
+</center>
+
+<p>이제 Image를 얻었으니 Docker얻은 이미지로 Docker를 실행 하도록 한다.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">-d</span> tomcat:latest
+</code></pre></div></div>
+
+<center>
+    <img src="../images/docker-first/docker-run-1.png" />
+    <br />
+    <em>[Fig. 5 - Docker 실행 하기]</em>
+</center>
+
+<p>위와 같이 docker Container가 실행 된것을 볼 수 있다. 이제 제대로 실행 되었는가를 확인 해보면 된다. 우선 Container의 IPAddress를 얻도록 한다.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker inspect <span class="o">[</span>Container ID] | <span class="nb">grep </span>IPAddress
+</code></pre></div></div>
+
+<p>위와 같이 실행하면 아래와 같은 결과를 얻을 수 있다.</p>
+
+<center>
+    <img src="../images/docker-first/docker-get-ipaddress.png" />
+    <br />
+    <em>[Fig. 6 - IP Address 얻기]</em>
+</center>
+
+<p>이후 Browser에서 확인을 해봤으면 좋겠지만.. 아직은 아니다. 좀 참도록 하자. 우선 curl 명령으로 test를 한다.</p>
+
+<center>
+    <img src="../images/docker-first/docker-curl-test.png" />
+    <br />
+    <em>[Fig. 7 - curl test하기]</em>
+</center>
+
+<p>정상적으로 돌아 가고 있는것으로 보인다. 이제는 자신의 노트북으로 고양이를 보고 싶을 것이다. 그렇게 하기 위해서는 우선적으로 조건이 있다.</p>
+
+<ol>
+  <li>방화벽 규칙 설정 하기</li>
+  <li>Compute engine Network Tag Update</li>
+</ol>
+
+<p>지금 부터 순차적으로 적용 해보록 한다. Main 화면의  &lt;img src=”../assets/images/top-menu.png” width=30px height=30px/&gt;를 클릭 해서 <code class="highlighter-rouge">네트워킹</code> - <code class="highlighter-rouge">VPC 네트워크</code> - <code class="highlighter-rouge">방화벽 규칙</code> Menu를 클릭 하도록 한다.</p>
+
+<center>
+    <img src="../images/docker-first/docker-network-vpc-menu.png" />
+    <br />
+    <em>[Fig. 7 - 방화벽 규칙]</em>
 </center>
 
 <center>
-    <img src="../images/google-cloud-project-create/web-console-1.png" />
-	<br />
-    <em>[Fig 1-2. Project 생성] </em>
+    <img src="../images/docker-first/docker-default-vpc-network-conf.png" />
+    <br />
+    <em>[Fig. 7-1 - 방화벽 규칙 설정하기]</em>
 </center>
 
-<p>다른 방법으로는 그림 [Fig 2-1]에서 처럼 옆 &lt;img src=”../assets/images/top-menu.png” width=30px height=30px/&gt;를 클릭 해서 <code class="highlighter-rouge">IAM 및 관리자</code> - <code class="highlighter-rouge">리소스 관리</code> Menu를 클릭 하도록 한다.</p>
+<p>여기서 <code class="highlighter-rouge">대상 태그</code>의 이름을 기억해 뒀다가 아래와 같이 Compute engine Network Tag에 추가하도록 한다.</p>
 
 <center>
-    <img src="../images/google-cloud-project-create/menu-resource-0.png" />
-	<br />
-    <em>[Fig 2-1. Menu에서 리소스 관리 선택]</em>
+    <img src="../images/docker-first/docker-compute-engine-config.png" />
+    <br />
+    <em>[Fig. 7-2 - Compute engine Config 변경]</em>
 </center>
+
+<p>그리고 몇분 후 http://[External IP]:8080을 이용하여 Test해보도록 한다.</p>
 
 <center>
-    <img src="../images/google-cloud-project-create/menu-resource-1.png" />
-	<br />
-    <em>[Fig 2-2. 리소스 관리에서 Project 만들기 선택]</em>
+    <img src="../images/docker-first/docker-tomcat-test.png" />
+    <br />
+    <em>[Fig. 7-3 - Tomcat Test]</em>
 </center>
 
-<center>
-    <img src="../images/google-cloud-project-create/menu-resource-2.png" />
-	<br />
-    <em>[Fig 2-3. Project 생성]</em>
-</center>
-
-<p>Project 생성 시 <code class="highlighter-rouge">Project 이름</code>은 중복이 가능 하나, 아래 작은 글씨로 자동 생성된 <code class="highlighter-rouge">Project ID</code>는 다른 Google Cloud 내에 다른 Project들과 중복이 되면 안된다. 그리고, <code class="highlighter-rouge">Project ID</code>는 향후 변경 할 수 없으므로, 대규모 Project에서 여러 Project를 연결 할 경우 Naming Rule을 결정 할 필요가 있다. 이는 다음에 자세히 살펴보도록 한다.</p>
-
-<p>이번에는 Project 생성에 대해 알아 보았다. 전사(Enterprise)의 시각으로 보자면 Project의 생성은 곧 하나의 조직이 될수 있고, 이는 논리적인 하나의 업무 혹은 조직이 될 수 있으며, 조직의 구조는 Cloud에 있는 Landscape의 구조로 볼 수 있을 것이다. 때문에, Project의 구조를 잡는것은 관리적인 측면에서 아주 중요한 부분이 될 수 있을 것이고, 효율적인 IT 운영의 첫걸음이 될 수 있을 것이다.</p>
-
-<p>아직은 Cloud의 경험이 적어 이런 부분에 대한 포스팅을 하긴 어렵다. 이런 부분은 Project의 경험이 많이 필요하기 때문에, 향후 나중에 포스팅 할 기회가 있으면 해보도록 하려고 한다.</p>
-
-<p>다음은 본격적으로 Google Cloud Compute Engine의 생성/삭제에 대해 알아보도록 하겠다.</p>
+<p>다음은 nginx + Tomcat을 연동하는 것을 Posting을 해보도록 하겠다.</p>
 
                 </div>
             </section>
@@ -327,11 +417,6 @@ into the {body} of the default.hbs template -->
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/Compute-engine-docker">Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -355,6 +440,11 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                            <li><a href="/Google-Cloud-Compute-Engine-Usage-1">Google Cloud Compute Engine (1) - Project 생성하기</a></li>
+                                        
                                     
                                   
                                 
@@ -387,27 +477,23 @@ into the {body} of the default.hbs template -->
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
                 
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/Google-Cloud-Compute-Engine-Usage-2">
-                <div class="post-card-image" style="background-image: url(/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg)"></div>
-            </a>
+    <article class="post-card post-template no-image">
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/Google-Cloud-Compute-Engine-Usage-2">
+            <a class="post-card-content-link" href="/msa-1">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Infrastructure</span>
+                                <span class="post-card-tags">Bigdata</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Google Cloud Compute Engine (2) - Compute Engine Instance 생성</h2>
+                    <h2 class="post-card-title">Microservice Architecture 소개 (1)</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>> [Google Cloud Compute Engine (1) - Project 생성하기]({{site.url}}/Google-Cloud-Compute-Engine-Usage-1) > > [Google Cloud Compute Engine (2) - Compute Engine Instance 생성]({{site.url}}/Google-Cloud-Compute-Engine-Usage-2) 이번 Post에서는 Google Cloud의 자원 중 Compute Engine을 사용하는 방법에 대해 알아</p>
+                    <p># 개요 Microservice는 서비스 기반 Application을 개발 하는 방법론의 하나이다. 이 방법론에서는 하나의 커다란 Application에서 작은 독립적인 서비스의 단위로 나뉜다. Microservice는 전체 Application을 상호 연결된 서비스의 모음으로 나누어 SOA(Service-Orientied Architecture)를 구현하는 Process로 각</p>
                 </section>
             </a>
             <footer class="post-card-meta">
@@ -416,13 +502,6 @@ into the {body} of the default.hbs template -->
                 
                     
                 
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/Icons/Products-Services/Compute/Compute-Engine.svg" alt="Compute Engine" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/compute-engine/">Compute Engine</a>
-                        </span>
                     
                 
                     
@@ -442,14 +521,10 @@ into the {body} of the default.hbs template -->
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
                 
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/Google-Cloud-SDK-Install">
-                <div class="post-card-image" style="background-image: url(/assets/images/Icons/Products-Services/Developer-Tools/Cloud-SDK.svg)"></div>
-            </a>
+    <article class="post-card post-template no-image">
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/Google-Cloud-SDK-Install">
+            <a class="post-card-content-link" href="/Google-Vault-Usage">
                 <header class="post-card-header">
                     
                         
@@ -459,10 +534,10 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">Google Cloud SDK Install</h2>
+                    <h2 class="post-card-title">Google Vault</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>Google Cloud는 Cloud위의 Resource를 관리할 수 있는 2가지 도구를 제공한다. 하나는 Cloud Web Console이고, 또 다른 하나는 CLI(Command Line Interface : 명령표시줄)로 관리할 수있는 Cloud SDK가 그것이다. 뿐만아니라 Google은 Cloud 위의 자원을 관리하기</p>
+                    <p>Google Vault 란? Google Vault는 조직(혹은 특정 사용자나 Group)의 보관처리 및 디지털 증거 검색 요구 지원을 위해 데이터를 보관, 보존 처리, 검색하고 내보낼 수 있다. Google Vault는 아래와 같은 Contents에 대해 기능을 제공한다.</p>
                 </section>
             </a>
             <footer class="post-card-meta">
@@ -509,18 +584,18 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Google Cloud Compute Engine (1) - Project 생성하기</div>
+    <div class="floating-header-title">Linux에 Docker 설치 하기 (With Google Cloud Compute Engine) - 1</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Google+Cloud+Compute+Engine+%281%29+-+Project+%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&amp;url=https://jay-pak.github.ioGoogle-Cloud-Compute-Engine-Usage-1"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Linux%EC%97%90+Docker+%EC%84%A4%EC%B9%98+%ED%95%98%EA%B8%B0+%28With+Google+Cloud+Compute+Engine%29+-+1&amp;url=https://jay-pak.github.ioCompute-engine-docker"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jay-pak.github.ioGoogle-Cloud-Compute-Engine-Usage-1"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jay-pak.github.ioCompute-engine-docker"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
